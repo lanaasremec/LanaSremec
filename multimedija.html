@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multimedija</title>
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: white;
+background-image: url("pozadina.jpg");
+color: black;
+margin: 10px;}
+h1, h2 {
+color: red;}
+img {
+  width: 200px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5px;}
+video {
+width: 320px;
+height: 240px;}
+</style>
+</head>
+<body>
+<h1>Multimedijalni sadržaj</h1>
+<h2>Moje slike</h2>
+<img src="slika1.jpeg" />
+<img src="slika2.jpeg" />
+<h2>Video</h2>
+<video controls>
+  <source src="video.mp4" type="video/mp4" />
+  Tvoj preglednik ne podržava ovaj format video datoteke
+</video>
+<h2>Youtube video</h2>
+<iframe width="560" height="315" 
+src="https://www.youtube.com/watch?v=u8kD5wm9OL8" 
+frameborder="0" allowfullscreen></iframe>
+<h2>Zvuk</h2>
+<audio controls>
+  <source src="zvuk.mp3" type="audio/mp3" />
+  Tvoj browser ne podržava ovaj format audio datoteke
+</audio>
+</body>
+</html>
